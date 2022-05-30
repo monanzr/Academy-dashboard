@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assests/img/07_icon/favicon.ico" type="image/x-icon">
+    <title>Academy</title>
+    <link rel="stylesheet" href="css/home/home.css">
+<!--    <link-->
+<!--            rel="stylesheet"-->
+<!--            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"-->
+<!--    />-->
+    <link rel="stylesheet" href="assests/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assests/bootstarpIcon/bootstrap-icons.css">
+
+</head>
+<body>
+
+<!--<header id="header">-->
+<!--    -->
+<!--    <div class="container">-->
+
+<!--    </div>-->
+<!--    -->
+<!--</header>-->
+
+<main>
+
+    <nav class="navbar">
+        <div class="navbar__logo animate__animated animate__fadeInLeft">
+            <span class="diamond__dark"></span>
+            <span class="diamond__light"></span>
+            <p>Academy</p>
+        </div>
+        <div class="navbar__nav animate__animated animate__fadeInLeft">
+            <ul class="nav__lists">
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'dashboard')" id="defaultOpen"><lord-icon
+                            src="https://cdn.lordicon.com/tkuhvozl.json"
+                            trigger="hover"
+                            style="width:32px;height:32px">
+                    </lord-icon> Dashboard</a>
+                </li>
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'course')">
+                        <lord-icon
+                                src="https://cdn.lordicon.com/dxoycpzg.json"
+                                trigger="morph"
+                                style="width:40px;height:40px">
+                        </lord-icon> Course</a>
+                </li>
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'chats')">
+                        <lord-icon
+                                src="https://cdn.lordicon.com/flvisirw.json"
+                                trigger="morph"
+                                style="width:40px;height:40px">
+                        </lord-icon> Chats</a>
+                </li>
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'grades')"><lord-icon
+                            src="https://cdn.lordicon.com/oegrrprk.json"
+                            trigger="morph"
+                            style="width:40px;height:40px">
+                    </lord-icon> Grades</a>
+                </li>
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'schedule')"><lord-icon
+                            src="https://cdn.lordicon.com/ckatldkn.json"
+                            trigger="morph"
+                            style="width:40px;height:40px">
+                    </lord-icon>
+                        Schedule</a>
+                </li>
+                <li class="nav__list">
+                    <a class="nav__link" href="#" onclick="openTab(event, 'setting')"><lord-icon
+                            src="https://cdn.lordicon.com/nnbhwnej.json"
+                            trigger="morph"
+                            style="width:40px;height:40px">
+                    </lord-icon> Setting</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar__img animate__animated animate__fadeInLeft animate__delay-1s">
+            <img src="assests/img/navbar-bg-3.png" class="animate__animated animate__bounceIn animate__delay-2s">
+            <div class="navbar__content">
+                <h3>Premium subscription</h3>
+                <p>Buy Premium and get access
+                    to new courses
+                </p>
+                <button class="btn btn__primary btn__navbar">More Detailed</button>
+            </div>
+        </div>
+
+    </nav>
+    <section class="center">
+        <div class="dashboard__top animate__animated animate__fadeInUp animate__delay-2500ms">
+            <div class="dashboard__title">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="dashboard__search">
+                <input class="search input" type="text">
+                <button class="btn__notification btn btn__primary"><i class="bi bi-bell"></i></button>
+            </div>
+        </div>
+        <div class="tab__content" id="dashboard">
+            <div class="newCourse">
+                <div class="">
+                    <div class="newCourse__title animate__animated animate__fadeInUp animate__delay-3s">
+                        <h2>New Course</h2>
+                    </div>
+                    <div class="newCourse__wrapper">
+                        <div class="newCourse__box animate__animated animate__fadeInTopRight animate__delay-3500ms">
+                            <div class="newCourse__img">
+                                <img src="assests/img/1.png">
+                            </div>
+                            <div class="newCourse__name">
+                                <h3>Geography</h3>
+                            </div>
+                            <div class="newCourse__lessons">
+                                <p>12 Lessons</p>
+                            </div>
+                            <div class="newCourse__participant">
+                                <div class="participant__img">
+                                    <img class="participant__one" src="assests/img/avt-2.jpg">
+                                    <img class="participant__two" src="assests/img/avt-1.jpg">
+                                    <img class="participant__three" src="assests/img/avt-6.jpg">
+                                </div>
+                                <div class="participant__arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newCourse__box animate__animated animate__fadeInTopRight animate__delay-4s">
+                            <div class="newCourse__img">
+                                <img src="assests/img/program.png">
+                            </div>
+                            <div class="newCourse__name">
+                                <h3>Geography</h3>
+                            </div>
+                            <div class="newCourse__lessons">
+                                <p>12 Lessons</p>
+                            </div>
+                            <div class="newCourse__participant">
+                                <div class="participant__img">
+                                    <img class="participant__one" src="assests/img/avt-2.jpg">
+                                    <img class="participant__two" src="assests/img/avt-1.jpg">
+                                    <img class="participant__three" src="assests/img/avt-6.jpg">
+                                </div>
+                                <div class="participant__arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="newCourse__box animate__animated animate__fadeInTopRight animate__delay-4500ms">
+                            <div class="newCourse__img">
+                                <img src="assests/img/3.png">
+                            </div>
+                            <div class="newCourse__name">
+                                <h3>Geography</h3>
+                            </div>
+                            <div class="newCourse__lessons">
+                                <p>12 Lessons</p>
+                            </div>
+                            <div class="newCourse__participant">
+                                <div class="participant__img">
+                                    <img class="participant__one" src="assests/img/avt-2.jpg">
+                                    <img class="participant__two" src="assests/img/avt-1.jpg">
+                                    <img class="participant__three" src="assests/img/avt-6.jpg">
+                                </div>
+                                <div class="participant__arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="myCourse">
+                <div class="">
+                    <div class="newCourse__title animate__animated animate__fadeInUp">
+                        <h2>My Course</h2>
+                    </div>
+                    <table class="myCourse__table">
+                        <thead class="myCourse__thead animate__animated animate__fadeInUp animate__delay-5s">
+                        <tr>
+                            <th>Course name</th>
+                            <th>Start</th>
+                            <th>Rate</th>
+                            <th>Level</th>
+                        </tr>
+                        </thead>
+                        <tbody class="myCourse__tbody">
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/elwzfyhv.json"
+                                        trigger="morph"
+                                        class="myCourse__img one">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Web Design</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 15</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/zjscbpdr.json"
+                                        trigger="morph"
+                                        class="myCourse__img two">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">
+                                        Development Basics
+                                    </p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 16</td>
+                            <td class="myCourse__rate">4.4</td>
+                            <td class="myCourse__level">Basic</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/ubykurwv.json"
+                                        trigger="morph"
+                                        colors="primary:#109173,secondary:#fff"
+                                        class="myCourse__img three">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Data with Python</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="mmyCourse__date">May 17</td>
+                            <td class="myCourse__rate">4.3</td>
+                            <td class="myCourse__level">Pro</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/isltkuht.json"
+                                        trigger="morph"
+                                        colors="primary:#911051,secondary:#fff"
+                                        class="myCourse__img four">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">HTML basics</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 19</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab__content" id="course">
+            <div class="myCourse">
+                <div class="">
+                    <div class="newCourse__title animate__animated animate__fadeInUp">
+                        <h2>My Course</h2>
+                    </div>
+                    <table class="myCourse__table">
+                        <thead class="myCourse__thead animate__animated animate__fadeInUp animate__delay-5s">
+                        <tr>
+                            <th>Course name</th>
+                            <th>Start</th>
+                            <th>Rate</th>
+                            <th>Level</th>
+                        </tr>
+                        </thead>
+                        <tbody class="myCourse__tbody">
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/elwzfyhv.json"
+                                        trigger="morph"
+                                        class="myCourse__img one">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Web Design</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 15</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/zjscbpdr.json"
+                                        trigger="morph"
+                                        class="myCourse__img two">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">
+                                        Development Basics
+                                    </p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 16</td>
+                            <td class="myCourse__rate">4.4</td>
+                            <td class="myCourse__level">Basic</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/ubykurwv.json"
+                                        trigger="morph"
+                                        colors="primary:#109173,secondary:#fff"
+                                        class="myCourse__img three">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Data with Python</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="mmyCourse__date">May 17</td>
+                            <td class="myCourse__rate">4.3</td>
+                            <td class="myCourse__level">Pro</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/isltkuht.json"
+                                        trigger="morph"
+                                        colors="primary:#911051,secondary:#fff"
+                                        class="myCourse__img four">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">HTML basics</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 19</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/elwzfyhv.json"
+                                        trigger="morph"
+                                        class="myCourse__img one">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Web Design</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 15</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/zjscbpdr.json"
+                                        trigger="morph"
+                                        class="myCourse__img two">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">
+                                        Development Basics
+                                    </p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 16</td>
+                            <td class="myCourse__rate">4.4</td>
+                            <td class="myCourse__level">Basic</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/ubykurwv.json"
+                                        trigger="morph"
+                                        colors="primary:#109173,secondary:#fff"
+                                        class="myCourse__img three">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Data with Python</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="mmyCourse__date">May 17</td>
+                            <td class="myCourse__rate">4.3</td>
+                            <td class="myCourse__level">Pro</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/isltkuht.json"
+                                        trigger="morph"
+                                        colors="primary:#911051,secondary:#fff"
+                                        class="myCourse__img four">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">HTML basics</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 19</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        <tr class="animate__animated animate__fadeInUp animate__delay-5s">
+                            <td class="myCourse__td">
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/elwzfyhv.json"
+                                        trigger="morph"
+                                        class="myCourse__img one">
+                                </lord-icon>
+                                <div class="myCourse__wrapper">
+                                    <p class="myCourse__name">Web Design</p>
+                                    <p class="myCourse__lessons">
+                                        10 lessons
+                                    </p>
+                                </div>
+                            </td>
+                            <td class="myCourse__date">May 15</td>
+                            <td class="myCourse__rate">4.8</td>
+                            <td class="myCourse__level">Intermediate</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside>
+            <div class="profile__wrapper">
+                <div class="profile__title animate__animated animate__fadeInUp">
+                    <h2>Profile</h2>
+                    <button class="btn btn__primary"><i class="bi bi-pencil"></i></button>
+                </div>
+                <div class="profile__img">
+                    <img src="assests/img/user-profile.webp" class="animate__animated animate__zoomIn">
+                    <h3 class="profile__name animate__animated animate__fadeInUp">Esther Howard</h3>
+                    <p class="profile__position animate__animated animate__fadeInUp">Elementary</p>
+                </div>
+            </div>
+            <div class="callender__wrapper">
+                <div class="calendar-toolbar animate__animated animate__fadeInUp">
+                    <button class="prev month-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="current-month"></div>
+                    <button class="next month-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="calendar animate__animated animate__fadeInRight">
+                    <div class="weekdays">
+                        <div class="weekday-name">Sa</div>
+                        <div class="weekday-name">Su</div>
+                        <div class="weekday-name">Mo</div>
+                        <div class="weekday-name">Tu</div>
+                        <div class="weekday-name">We</div>
+                        <div class="weekday-name">Th</div>
+                        <div class="weekday-name">Fr</div>
+                    </div>
+                    <div class="calendar-days"></div>
+                </div>
+            </div>
+            <div class="homework__wrapper">
+                <div class="homework__title animate__animated animate__fadeInUp">
+                    <h2>Homework Progress</h2>
+                </div>
+                <div class="homework__box active animate__animated animate__fadeInTopLeft">
+                    <div class="homework__percent">
+                        <p>50%</p>
+                    </div>
+                    <div class="homework__name">
+                        <h3>Styling with CSS</h3>
+                        <p>12 Tasks</p>
+                    </div>
+                    <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="homework__box animate__animated animate__fadeInTopLeft">
+                    <div class="homework__percent">
+                        <p>50%</p>
+                    </div>
+                    <div class="homework__name">
+                        <h3>Styling with CSS</h3>
+                        <p>12 Tasks</p>
+                    </div>
+                    <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="homework__box animate__animated animate__fadeInTopLeft">
+                    <div class="homework__percent">
+                        <p>50%</p>
+                    </div>
+                    <div class="homework__name">
+                        <h3>Styling with CSS</h3>
+                        <p>12 Tasks</p>
+                    </div>
+                    <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+    </aside>
+
+</main>
+
+
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

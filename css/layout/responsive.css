@@ -1,0 +1,136 @@
+
+@media only screen and (max-width: 415px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+    .nav__lists {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;}
+
+    .nav__list {
+        margin: 0 0;
+    }
+
+    .navbar__img {
+        display: flex;
+
+
+        flex-direction: column;align-items: center;}
+
+    .navbar__img img {
+        /* width: 14rem!important; */
+    }
+
+    .myCourse__table {
+        width: 100%;
+        text-align: left;
+        border-collapse: unset;
+        border-spacing: 3px;
+        width: 100%;
+        border-width: 0;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        max-width: 100%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .header__box {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;justify-items: center;gap: 2rem;padding: 2rem 0;}
+
+    .navbar__nav {
+        margin-bottom: 3rem!important;
+    }
+
+    .navbar__img {
+        min-height: 20rem
+    }
+
+    .navbar__img img {
+        width: 24rem;
+        object-fit: contain;}
+
+    .center {
+        width: 100%;
+    }
+
+    .newCourse__wrapper {
+
+        flex-direction: column;justify-content: center;align-items: center;}
+
+    aside {
+        width: 100vw!important;
+        margin: 5rem auto 0 auto;
+        gap: 4rem;
+    }
+
+    .newCourse__box {
+        /* justify-items: center; */
+        width: 100%;
+        margin: 1rem 1rem!important;
+    }
+
+    .newCourse__img img {
+        width: 50rem!important;
+        height: 15rem!important;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    aside {
+        width: 100vw!important;
+        margin: 5rem auto 0 auto;
+        flex-direction: row!important;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    #header {
+        width: 100vw
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+
+        width: 100vw;}
+
+    .navbar__nav {
+        width: 100%;
+        margin-bottom: 5rem;}
+
+    .nav__lists {
+        display: flex;
+        justify-content: space-around;}
+
+    .navbar__img {
+        display: flex;
+        justify-content: space-between;width: 100%;
+    }
+
+    .profile__wrapper, .callender__wrapper, .homework__wrapper {
+        flex: 33%;
+    }
+
+    .callender__wrapper {
+        box-shadow: 0px 0px 10px var(--box-shadow);
+        padding: 1rem 2rem;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}

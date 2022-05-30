@@ -1,0 +1,191 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: space-between;
+    /* height: 100%; */
+    /* gap: 0; */
+}
+
+.dashboard__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    /* height: 5%; */
+}
+
+.dashboard__title h1 {
+    font-size: var(--font-size-2xl);}
+
+.tab__content {
+    /* height: 95%; */
+}
+
+.newCourse {
+    /* margin: 3rem 0 0 0; */
+    /* height: 50%; */
+}
+
+.newCourse__title {
+    margin: 2rem 0;
+    -webkit-animation-delay: 4800ms;
+    animation-delay: 4800ms;
+}
+
+.newCourse__wrapper {
+    display: flex;
+}
+
+.newCourse__box {
+    padding: 1rem 1.5rem;
+    background-color: var(--secondary-color);
+    margin: 0 1rem;
+    text-align: left;
+    border-radius: var(--border-raduis-lg);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 0.1fr 0.5fr 1fr;
+    transition: all 0.4s;
+}
+
+.newCourse__box:nth-child(1) {
+    background-color: #fff0e1
+}
+
+.newCourse__box:nth-child(3) {
+    background-color: #e5f3fe
+}
+
+.newCourse__box:hover {
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    transform: scale(1.05);
+}
+
+.newCourse__img {
+    background-color: var(--primary-color);
+    border-radius: var(--border-raduis-lg);
+}
+
+.newCourse__box:nth-child(1) .newCourse__img {
+    background-color: #fcaa5e
+}
+
+.newCourse__box:nth-child(3) .newCourse__img {
+    background-color: #579be4
+}
+
+.newCourse__img img {
+    width: 23rem;
+    height: 13rem;
+    object-fit: contain;
+}
+
+.newCourse__participant {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.newCourse__name h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.newCourse__lessons p {
+    font-size: 1.3rem;
+}
+
+.participant__img img {
+    width: 3rem;
+    border-radius: 50%;
+    transition: 0.2s transform;
+    -webkit-transition: 0.2s -webkit-transform;
+}
+
+.participant__img img:nth-child(2) {
+    margin-left: -1rem;
+}
+
+.participant__img img:nth-child(3) {
+    margin-left: -1rem;
+}
+
+.participant__img img:nth-child(1):hover, .participant__img img:nth-child(2):hover, .participant__img img:nth-child(3):hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.participant__arrow {
+    background-color: var(--primary-color);
+    padding: 0.6rem 1rem;
+    border-radius: var(--border-raduis-md);
+    color: var(--light-color);
+}
+
+.myCourse {
+    padding: 4rem 0 0 0;
+    /* height: 50%; */
+}
+
+.myCourse__table {
+    width: 100%;
+    text-align: left;
+}
+
+.myCourse__tbody {
+
+    color: var(--dark-color);
+    font-size: 1.3rem;
+}
+
+.myCourse__thead tr {
+
+    height: 2rem;
+    margin: 2rem 0;
+}
+
+.myCourse__thead th {
+    font-weight: 500;
+    color: var(--accent-color);
+}
+
+.myCourse__td {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+.myCourse__img {
+    background-color: #eee;
+    width: 7rem;
+    height: 7rem;
+    border-radius: var(--border-raduis-md);
+}
+
+.myCourse__img.one {
+    background-color: rgb(235,230,239)
+}
+
+.myCourse__img.two {
+    background-color: #d8a7ff;
+}
+
+.myCourse__img.three {
+    background-color: #00ffc4;
+}
+
+.myCourse__img.four {
+    background-color: #ff42a1;
+}
+
+
+.myCourse__name {
+    color: var(--dark-color);
+    font-size: 1.5rem;
+}
+
+.myCourse__lessons {
+
+}
