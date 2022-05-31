@@ -203,11 +203,24 @@ aside {
     height: 4.5rem;
     /* as the half of the width */
     border-radius: 200px;
-    border: 5px solid var(--light-color);
-    border-right: 5px solid #d4d4d4;
-    border-bottom: 5px solid #d4d4d4;
+    border: 5px solid #d4d4d4;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
+}
+
+.homework__percent.one {
+    border-left: 5px solid var(--primary-color);
+    border-top: 5px solid var(--primary-color);
+}
+
+.homework__percent.two {
+    border-left: 5px solid var(--primary-color);
+    border-top: 5px solid var(--primary-color);
+    border-right: 5px solid var(--primary-color);
+}
+
+.homework__percent.three {
+    border-left: 5px solid var(--primary-color);
 }
 
 .homework__box.active {
@@ -216,10 +229,29 @@ aside {
     margin-top: 0;
 }
 
+.homework__box.active .homework__percent.one {
+    border-left: 5px solid var(--light-color);
+    border-top: 5px solid var(--light-color);
+}
+
+.homework__box.active .homework__percent.two {
+    border-left: 5px solid var(--light-color);
+    border-top: 5px solid var(--light-color);
+    border-right: 5px solid var(--light-color);
+}
+
+.homework__box.active .homework__percent.three {
+    border-left: 5px solid var(--light-color);
+}
+
 .homework__percent p {
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
     color: var(--dark-color)
+}
+
+.homework__box.active .homework__percent p, .homework__box.active  .homework__name p {
+    color: var(--light-color);
 }
 
 .homework__name h3 {
