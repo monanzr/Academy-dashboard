@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="assests/img/07_icon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assests/img/favicon.png" type="image/x-icon">
     <title>Academy</title>
     <link rel="stylesheet" href="css/home/home.css">
 <!--    <link-->
@@ -101,8 +101,10 @@
                 <h1>Dashboard</h1>
             </div>
             <div class="dashboard__search">
-                <input class="search input" type="text">
-                <button class="btn__notification btn btn__primary"><i class="bi bi-bell"></i></button>
+                <label class="search__box">
+                    <input class="search input" type="text" placeholder="Search">
+                </label>
+                <button class="btn__notification btn btn__primary"><img src="https://img.icons8.com/dusk/64/000000/appointment-reminders--v1.png"/></button>
             </div>
         </div>
         <div class="tab__content" id="dashboard">
@@ -480,6 +482,11 @@
                 </div>
             </div>
         </div>
+        <div class="tab__content" id="chats"></div>
+        <div class="tab__content" id="grades"></div>
+        <div class="tab__content" id="schedule"></div>
+        <div class="tab__content" id="setting"></div>
+
     </section>
     <aside>
             <div class="profile__wrapper">
@@ -488,7 +495,7 @@
                     <button class="btn btn__primary"><i class="bi bi-pencil"></i></button>
                 </div>
                 <div class="profile__img">
-                    <img src="assests/img/user-profile.webp" class="animate__animated animate__zoomIn">
+                    <img src="assests/img/user-profile.png" class="animate__animated animate__zoomIn">
                     <h3 class="profile__name animate__animated animate__fadeInUp">Esther Howard</h3>
                     <p class="profile__position animate__animated animate__fadeInUp">Elementary</p>
                 </div>
@@ -517,7 +524,7 @@
                     <h2>Homework Progress</h2>
                 </div>
                 <div class="homework__box active animate__animated animate__fadeInTopLeft">
-                    <div class="homework__percent">
+                    <div class="homework__percent one">
                         <p>50%</p>
                     </div>
                     <div class="homework__name">
@@ -527,22 +534,22 @@
                     <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
                 </div>
                 <div class="homework__box animate__animated animate__fadeInTopLeft">
-                    <div class="homework__percent">
-                        <p>50%</p>
+                    <div class="homework__percent two">
+                        <p>65%</p>
                     </div>
                     <div class="homework__name">
-                        <h3>Styling with CSS</h3>
-                        <p>12 Tasks</p>
+                        <h3>Basic of Programming</h3>
+                        <p>18 Tasks</p>
                     </div>
                     <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
                 </div>
                 <div class="homework__box animate__animated animate__fadeInTopLeft">
-                    <div class="homework__percent">
-                        <p>50%</p>
+                    <div class="homework__percent three">
+                        <p>25%</p>
                     </div>
                     <div class="homework__name">
-                        <h3>Styling with CSS</h3>
-                        <p>12 Tasks</p>
+                        <h3>Learn to Program in Java</h3>
+                        <p>10 Tasks</p>
                     </div>
                     <div class="homework__open"><i class="fas fa-chevron-right"></i></div>
                 </div>
