@@ -57,7 +57,7 @@
         object-fit: contain;}
 
     .center {
-        width: 100%;
+        width: 100vw!important;
     }
 
     .newCourse__wrapper {
