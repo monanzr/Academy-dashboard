@@ -16,7 +16,37 @@
 }
 
 .dashboard__title h1 {
-    font-size: var(--font-size-2xl);}
+    font-size: var(--font-size-2xl);
+}
+
+.dashboard__search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search__box {
+    position: relative;
+}
+
+.search__box:before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 9px;
+    bottom: 0;
+    width: 27px;
+    height: 27px;
+    background: url("https://img.icons8.com/dusk/64/000000/search--v2.png") center / contain no-repeat;
+}
+
+.search {
+    padding-left: 49px;
+}
+
+.search::placeholder {
+    padding-left: 0;
+}
 
 .tab__content {
     /* height: 95%; */
